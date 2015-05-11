@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'sinatra/reloader'
 
-SECRET_NUMBER = rand(100)
+SECRET_NUMBER = rand(101)
 number = SECRET_NUMBER
 
 get "/" do
